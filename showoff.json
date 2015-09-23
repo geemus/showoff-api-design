@@ -1,0 +1,12 @@
+{
+  "favicon": "/file/images/heroku.ico",
+  "title": "API by Design",
+  "sections": [
+    "intro",
+    "design",
+    "tools",
+    "patterns",
+    "outro",
+    "resources"
+  ]
+}
