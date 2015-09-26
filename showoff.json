@@ -1,12 +1,13 @@
 {
   "favicon": "/file/images/heroku.ico",
-  "title": "API by Design",
+  "name": "design(API)",
   "sections": [
-    "sections/intro",
-    "sections/design",
-    "sections/tools",
-    "sections/patterns",
-    "sections/outro",
-    "sections/resources"
+    "sections/intro"
+    //"sections/design"
+    //?"sections/literacy",
+    //?"sections/tools",
+    //?"sections/patterns",
+    //?"sections/outro",
+    //?"sections/resources"
   ]
 }

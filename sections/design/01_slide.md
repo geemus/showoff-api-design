@@ -1,6 +1,1 @@
-!SLIDE bullets incremental
-# Design #
-
-* first point
-* second point
-* third point
+!SLIDE[bg=/images/design.jpg] background-fit
