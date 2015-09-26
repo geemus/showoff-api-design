@@ -19,6 +19,12 @@
 !SLIDE[bg=/images/design.jpg] background-fit
 
 !SLIDE bullets
+# The Feels
+
+* user should feel empowered
+* borrow from UX, info design, etc
+
+!SLIDE bullets
 # Let me tell you about API...
 
 * HAVE: organic, inconsistent, private
