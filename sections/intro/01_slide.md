@@ -60,11 +60,16 @@
 * json-schema and json hyper-schema
 * via yaml
 
+!SLIDE[bg=/images/pyramid-schema.jpg] background-fit
+
 !SLIDE bullets
 # manipulating schemata
 
 * [github.com/interagent/prmd](https://github.com/interagent/prmd)
 * generators, verifiers, docs, stubs, etc
+
+!SLIDE[bg=/images/owl.png] background-fit
+!SLIDE[bg=/images/rest.png] background-fit
 
 !SLIDE bullets
 # utilizing schemata
@@ -72,23 +77,59 @@
 * [github.com/interagent/pliny](https://github.com/interagent/pliny)
 * like rails for APIs
 * [github.com/interagent/committee](https://github.com/interagent/committee)
-
-!SLIDE[bg=/images/owl.png] background-fit
-!SLIDE[bg=/images/rest.png] background-fit
+* rack middleware for APIs
 
 !SLIDE
-# Challenges
+# Lessons Learned
+
+!SLIDE bullets incremental
+# nesting(s)?
+
+* `* /parents/{p-id}/children/{c-id}`
+* NO!
+* `GET /parents/{p-id}/children/`
+* `* /children/{c-id}`
+
+!SLIDE
+# singletons
+
+* `* /account/payment-methods`
+* NO!
+* `* /users/~/payment-methods`
+
+!SLIDE
+# YES!
+
+* UUIDs
+* Request-Ids
+
+!SLIDE
+# Maybe?
+
+* Range header pagination
+* Query based filters
+
+!SLIDE[bg=/images/no-idea.jpg] background-fit
+
+!SLIDE bullets
+# Development Woes
+
+* throughput
+* evolvability
+* specialization
 
 !SLIDE[bg=/images/change.jpg] background-fit
 
 !SLIDE bullets
-# Stability
+# Stability (per resource)
+
 * prototype (week)
 * development (month)
 * production (year)
 
 !SLIDE bullets
-# Scalability (HR)
+# Join the conversation!
 
-* steep learning curve
-* subjectivity FTL
+* github.com/interagent
+* @geemus
+
