@@ -133,6 +133,13 @@
 * development (month)
 * production (year)
 
+!SLIDE bullets
+# Versioning?
+
+* scope? fallbacks?
+* supporting multiples
+* operational overhead
+
 !SLIDE
 # Conclusion?
 
