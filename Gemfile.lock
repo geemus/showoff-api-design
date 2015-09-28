@@ -1,0 +1,81 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.3.8)
+    blankslate (3.1.3)
+    daemons (1.2.3)
+    em-websocket (0.3.8)
+      addressable (>= 2.1.1)
+      eventmachine (>= 0.12.9)
+    eventmachine (1.0.8)
+    excon (0.45.4)
+    gli (2.13.2)
+    heroku (3.42.9)
+      heroku-api (= 0.3.23)
+      launchy (= 2.4.3)
+      multi_json (= 1.11.2)
+      net-ssh-gateway (= 1.2.0)
+      netrc (= 0.10.3)
+      rest-client (= 1.6.8)
+      rubyzip (= 1.1.7)
+    heroku-api (0.3.23)
+      excon (~> 0.44)
+      multi_json (~> 1.8)
+    htmlentities (4.3.4)
+    json (1.8.3)
+    launchy (2.4.3)
+      addressable (~> 2.3)
+    mime-types (1.25.1)
+    mini_portile (0.6.2)
+    multi_json (1.11.2)
+    net-ssh (3.0.1)
+    net-ssh-gateway (1.2.0)
+      net-ssh (>= 2.6.5)
+    netrc (0.10.3)
+    nokogiri (1.6.6.2)
+      mini_portile (~> 0.6.0)
+    parslet (1.7.1)
+      blankslate (>= 2.0, <= 4.0)
+    rack (1.6.4)
+    rack-protection (1.5.3)
+      rack
+    rdoc (4.2.0)
+    redcarpet (3.3.3)
+    rest-client (1.6.8)
+      mime-types (~> 1.16)
+      rdoc (>= 2.4.2)
+    rubyzip (1.1.7)
+    showoff (0.10.2)
+      gli (>= 1.3.2)
+      htmlentities
+      json
+      nokogiri
+      parslet
+      redcarpet
+      sinatra (~> 1.3)
+      sinatra-websocket
+      thin (~> 1.3)
+    sinatra (1.4.6)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    sinatra-websocket (0.3.1)
+      em-websocket (~> 0.3.6)
+      eventmachine
+      thin (>= 1.3.1, < 2.0.0)
+    thin (1.6.4)
+      daemons (~> 1.0, >= 1.0.9)
+      eventmachine (~> 1.0, >= 1.0.4)
+      rack (~> 1.0)
+    tilt (2.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  heroku
+  redcarpet
+  showoff
+
+BUNDLED WITH
+   1.10.6
