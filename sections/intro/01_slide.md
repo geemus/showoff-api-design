@@ -24,11 +24,14 @@
 * user should feel empowered
 * borrow from UX, info design, etc
 
-!SLIDE bullets
+!SLIDE
+# My first API!
+
+!SLIDE bullets incremental
 # Let me tell you about API...
 
-* HAVE: organic, inconsistent, private
-* WANT: crafted, coherent, public
+* HAD: organic, inconsistent, private
+* WANTED: crafted, coherent, public
 
 !SLIDE bullets
 # Divide! Conquer?
@@ -44,13 +47,16 @@
 * checklist driven development
 * hating all of the things
 
+!SLIDE bullets
+# Up && Right
+
 !SLIDE[bg=/images/uncle-sam.png] background-fit
 
 !SLIDE bullets
 # http api design
 
 * [github.com/interagent/http-api-design](https://github.com/interagent/http-api-design)
-* document extractions
+* like 12-factor for APIs
 * explain feels (WIP)
 
 !SLIDE bullets
@@ -79,8 +85,10 @@
 * [github.com/interagent/committee](https://github.com/interagent/committee)
 * rack middleware for APIs
 
+!SLIDE[bg=/images/umbrellas.jpg] background-fit
+
 !SLIDE
-# Lessons Learned
+# Lessons Learned?
 
 !SLIDE bullets incremental
 # nesting(s)?
@@ -90,33 +98,31 @@
 * `GET /parents/{p-id}/children/`
 * `* /children/{c-id}`
 
-!SLIDE
+!SLIDE bullets incremental
 # singletons
 
 * `* /account/payment-methods`
 * NO!
 * `* /users/~/payment-methods`
 
-!SLIDE
+!SLIDE bullets incremental
 # YES!
 
+* i/o parity
 * UUIDs
 * Request-Ids
 
-!SLIDE
+!SLIDE bullets incremental
 # Maybe?
 
 * Range header pagination
 * Query based filters
 
-!SLIDE[bg=/images/no-idea.jpg] background-fit
-
-!SLIDE bullets
+!SLIDE bullets incremental
 # Development Woes
 
-* throughput
-* evolvability
-* specialization
+* steep learning curve
+* seductive specialization
 
 !SLIDE[bg=/images/change.jpg] background-fit
 
@@ -127,8 +133,13 @@
 * development (month)
 * production (year)
 
+!SLIDE
+# Conclusion?
+
+!SLIDE[bg=/images/no-idea.jpg] background-fit
+
 !SLIDE bullets
-# Join the conversation!
+# Let's be lost together!
 
 * github.com/interagent
 * @geemus
