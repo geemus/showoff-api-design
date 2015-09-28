@@ -1,7 +1,7 @@
 !SLIDE bullets
 # design(API) #
 
-* ![geemus](../../images/geemus.png)
+* ![geemus](../images/geemus.png)
 * @geemus (Wesley Beary)
 * [heroku](https://heroku.com/home) hacker laureate
 

@@ -1,13 +1,5 @@
 {
   "favicon": "/file/images/heroku.ico",
   "name": "design(API)",
-  "sections": [
-    "sections/intro"
-    //"sections/design"
-    //?"sections/literacy",
-    //?"sections/tools",
-    //?"sections/patterns",
-    //?"sections/outro",
-    //?"sections/resources"
-  ]
+  "sections": ["section"]
 }
