@@ -24,8 +24,10 @@
 * user should feel empowered
 * borrow from UX, info design, etc
 
-!SLIDE
-# My first API!
+!SLIDE bullets incremental
+# Heroku == my first API!
+
+* no pressure...
 
 !SLIDE bullets incremental
 # Let me tell you about API...
@@ -87,6 +89,12 @@
 
 !SLIDE[bg=/images/umbrellas.jpg] background-fit
 
+!SLIDE bullets
+# consuming APIs
+
+* [github.com/excon/excon](https://github.com/excon/excon)
+* Usable, fast, simple HTTP 1.1 for Ruby
+
 !SLIDE
 # Lessons Learned?
 
@@ -95,8 +103,16 @@
 
 * `* /parents/{p-id}/children/{c-id}`
 * NO!
-* `GET /parents/{p-id}/children/`
 * `* /children/{c-id}`
+* `GET /parents/{p-id}/children/` (maybe)
+
+!SLIDE bullets incremental
+# actions/transitions
+
+* `POST /resources/{r-id}/{action}`
+* NO!
+* `POST /resources/{r-id}/actions/{action}`
+* `POST /actions/{action}/resources`
 
 !SLIDE bullets incremental
 # singletons
@@ -109,19 +125,13 @@
 # YES!
 
 * i/o parity
-* UUIDs
+* UUIDs + friendly
 * Request-Ids
-
-!SLIDE bullets incremental
-# Maybe?
-
-* Range header pagination
-* Query based filters
 
 !SLIDE bullets incremental
 # Development Woes
 
-* steep learning curve
+* steep(ish) learning curve
 * seductive specialization
 
 !SLIDE[bg=/images/change.jpg] background-fit
@@ -136,8 +146,9 @@
 !SLIDE bullets
 # Versioning?
 
+* default :(
 * scope? fallbacks?
-* supporting multiples
+* multiversion support
 * operational overhead
 
 !SLIDE
