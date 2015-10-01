@@ -60,6 +60,7 @@
 * [github.com/interagent/http-api-design](https://github.com/interagent/http-api-design)
 * like 12-factor for APIs
 * explain feels (WIP)
+* patterns rather than solutions
 
 !SLIDE bullets
 # describing APIs?
